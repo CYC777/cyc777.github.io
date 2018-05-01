@@ -196,7 +196,7 @@ function createInstructionsScene(){
 
 function createPrologueText(font) {
 	var introText =
-		new THREE.TextGeometry ('Enemies approach and the only weapon you have is your wits!',
+		new THREE.TextGeometry ('Enemies are protecting the lotus, they will come at you if you are close!',
 		{
 			font: font,
 			size: 2,
@@ -224,7 +224,7 @@ function createPrologueText(font) {
 		);
 		
 	var instructionsTextLine2 =
-		new THREE.TextGeometry ('Defeat all the enemies to win!',
+		new THREE.TextGeometry ('Defeat 3 enemies to score 3 points and get the lotus to win!',
 		{
 			font: font,
 			size: 2,
