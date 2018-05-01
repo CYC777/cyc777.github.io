@@ -278,7 +278,7 @@ function createPrologueText(font) {
 	
 	var instructionsTextMaterial3 = new THREE.MeshBasicMaterial ( {color: 'yellow'});
 	var instructionsMesh3 = new THREE.Mesh( instructionsTextLine2, instructionsTextMaterial3);
-	instructionsMesh3.position.set(-20,-8,-20);
+	instructionsMesh3.position.set(-37,-8,-20);
 	instructionsScene.add(instructionsMesh3);
 	
 	var instructionsTextMaterial4 = new THREE.MeshBasicMaterial ( {color: 'yellow'});
